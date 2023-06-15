@@ -1,0 +1,163 @@
+body {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+
+main {
+  width: 100vw;
+  height: 100%;
+}
+
+.banner {
+  width: 100vw;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 21px 202px 19.69px 203px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-body {
+  padding: 47px 136px 60px 124px;
+}
+
+.about-item {
+  padding: 31px 31px 31px 33px;
+  background: linear-gradient(103.3deg, #7f69da -5.81%, #ef9de9 105.75%);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  gap: 54px;
+  display: flex;
+  margin-bottom: 38px;
+}
+
+.about-box {
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 21px;
+  padding: 48px 0px 47px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-head-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48.0143px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.92057px;
+  color: #232323;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.112404px;
+  color: #000000;
+}
+
+.orange {
+  background: linear-gradient(103.47deg, #f6ad41 -4.17%, #ffefbc 105.48%);
+}
+
+.green {
+  background: linear-gradient(103.78deg, #8ad1ae -3.95%, #dafff1 105.13%);
+}
+
+.start-up-body {
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 24px;
+  padding: 30px 84px 68.59px 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.start-head-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 79.7409px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -4.62796px;
+  color: #232323;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 22px;
+  margin-top: 112.41px;
+  position: relative;
+}
+
+.card {
+  width: calc(100% / 3.14);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+  min-height: 131px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.rose {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 24px;
+}
+
+.card-body .card:hover {
+  transform: scale(1.03);
+}
+
+.popup-body {
+  display: none;
+  width: 100%;
+  background: #ffffff;
+  position: absolute;
+  height: 520px;
+  top: 25%;
+  left: 0;
+  z-index: 1;
+}
+
+.pop-up {
+  border: 1px solid #aaaaaa;
+  border-radius: 24px;
+  height: 520px;
+  width: 100%;
+  padding: 26px 37px 0px 76px;
+}
+
+.mainBox {
+  padding: 31px 31px 31px 33px;
+}
+
+.pop-up-close {
+  cursor: pointer;
+}
+.pop-up-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rose {
+  position: absolute;
+}
