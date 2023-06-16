@@ -104,7 +104,7 @@ main {
 }
 
 .card {
-  width: calc(100% / 3.14);
+  width: calc(100% / 3.15);
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.18);
   box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.04);
@@ -129,23 +129,25 @@ main {
   display: none;
   width: 100%;
   background: #ffffff;
-  position: absolute;
-  height: 520px;
-  top: 25%;
+  position: absolute !important;
+  top: 6.5%;
   left: 0;
   z-index: 1;
 }
 
 .pop-up {
-  border: 1px solid #aaaaaa;
+  border: 1px solid black;
   border-radius: 24px;
-  height: 520px;
   width: 100%;
   padding: 26px 37px 0px 76px;
+  height: 920px;
+  position: relative;
+  z-index: 111111;
 }
 
 .mainBox {
-  padding: 31px 31px 31px 33px;
+  padding: 31px 143px 31px 120px;
+  background-color: #fff9ef;
 }
 
 .pop-up-close {
@@ -160,4 +162,183 @@ main {
 
 .rose {
   position: absolute;
+}
+
+.popup-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 105.322px;
+  line-height: 135px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -4.21287px;
+  color: #000000;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.popup-description {
+  max-width: 876px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.127465px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.pop-up-title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pop-up-members {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 53px;
+}
+
+.membersText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2.39801px;
+  color: #000000;
+}
+.pop-up-card-body {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 26px;
+}
+
+.pop-up-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.pop-up-card-username {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.56793px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.pop-up-card-workname {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.56793px;
+  margin-top: 9px;
+  color: #000000;
+}
+
+.leftImg {
+  position: absolute;
+  left: 1%;
+  bottom: 0;
+}
+
+.rightImg {
+  position: absolute;
+  right: 30%;
+  bottom: 0;
+}
+
+.pop-up-card-img {
+  position: relative;
+  display: block;
+}
+
+.content {
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  border-radius: 10px;
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+.fa-brands .fa-linkedin::before {
+  font-size: 40px;
+}
+
+.linkedln {
+  font-size: 30px;
+  color: rgb(30, 48, 80);
+}
+
+.content > * {
+  transform: translateY(45px);
+  transition: transform 0.6s;
+}
+
+.content:hover > * {
+  transform: translateY(0px);
+}
+
+.organizers-body {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 30.73px;
+  padding: 55px 73.12px 213.26px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #000000;
+  margin-top: 69px;
+}
+
+.organizers-body-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48.0143px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.92057px;
+  color: #232323;
+}
+
+.organize-img-body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 103.9px;
 }

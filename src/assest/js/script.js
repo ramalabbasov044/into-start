@@ -69,13 +69,16 @@ function getLogoDetails(logoId) {
 }
 
 function showLogoDetails(logoDetails) {
+  console.log(logoDetails);
   var detailsContainer = document.querySelector(".popup-body");
   detailsContainer.details;
 
   document.querySelector(".popup-body").style.display = "flex";
 
   const popupText = document.querySelector(".popup-text");
+  const popupDescription = document.querySelector(".popup-description");
   popupText.innerHTML = logoDetails.name;
+  popupDescription.innerHTML = logoDetails.description;
 }
 
 const pop_up_header = document.querySelector(".pop-up-close");
