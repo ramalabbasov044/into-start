@@ -27,23 +27,22 @@
         <nav id="nav">
           <ul id="ul">
             <li><a href="#">Əsas</a></li>
-            <li><a href="#">Tədbirlər</a></li>
-            <li><a href="#">İnkubasiya</a></li>
+            <li><a href="#Tədbirlər">Tədbirlər</a></li>
+            <li><a href="#İnkubasiya">İnkubasiya</a></li>
             <li><a href="#">Regionlar</a></li>
             <li><a href="#">Qalereya</a></li>
-            <li><a href="#">Təşkilatçılar</a></li>
+            <li><a href="#Təşkilatçılar">Təşkilatçılar</a></li>
           </ul>
         </nav>
-        <!-- <div class="hamburger-menu">
-          <i class="fa-solid fa-bars"></i>
-        </div> -->
       </div>
+
       <div class="header-bottom">
-        <p class="header_bold_text">
-          İdeyanı biznesə <span class="different_bold_text">çevir!</span>
+        <p class="header-h1">
+          İdeyanı biznesə
+          <span class="orange-text">çevir!</span>
         </p>
-        <div class="map-body">
-          <img src="./src/assest/images/map.png" alt="" />
+        <div class="header-map-body">
+          <div class="header-map"></div>
         </div>
       </div>
     </header>
@@ -98,6 +97,7 @@
             class="sticky-content2 sticky-content about-item orange"
             data-index="1"
             data-v-0e0ec1c6=""
+            id="Tədbirlər"
           >
             <div
               class="normal-mode bg-transparent image-about-field orange"
@@ -130,6 +130,7 @@
             class="sticky-content3 sticky-content stuck about-item green"
             data-index="2"
             data-v-0e0ec1c6=""
+            id="İnkubasiya"
           >
             <div
               class="normal-mode bg-transparent image-about-field green"
@@ -160,6 +161,7 @@
 
         <div class="start-up-body">
           <p class="start-head-text">Startaplar</p>
+          <div class="card-body"></div>
           <div class="popup-body">
             <div class="pop-up">
               <div class="pop-up-header">
@@ -296,13 +298,13 @@
               </div>
             </div>
           </div>
-          <div class="card-body"></div>
         </div>
 
-        <div class="organizers-body">
+        <div id="Təşkilatçılar" class="organizers-body">
           <p class="organizers-body-text">Təşkilatçılar</p>
+
           <div class="organize-img-body">
-            <a href="">
+            <a href="https://www.digital.gov.az/az">
               <div>
                 <img
                   src="./src/assest/images/organize-img.svg"
@@ -311,7 +313,7 @@
                 />
               </div>
             </a>
-            <a href="">
+            <a href="http://sup.vc">
               <div>
                 <img
                   src="./src/assest/images/organize-img2.svg"
@@ -335,8 +337,28 @@
           hərəkatının güclənməsi üçün həyata keçirilən layihədir.
         </p>
       </div>
-      <div class="footerBottom"></div>
+      <div class="footerBottom">
+        <div class="footerLeft">
+          <a href="#">info@innostart.az</a>
+          <a href="#">+994 (050) 888 88 88</a>
+        </div>
+        <div class="footerRight">
+          <a href="">
+            <img src="./src/assest/icon/instagram-icon.svg" alt="" />
+          </a>
+          <a href="">
+            <img src="./src/assest/icon/twitter-icon.svg" alt="" />
+          </a>
+          <a href="">
+            <img src="./src/assest/icon/facebook-icon.svg" alt="" />
+          </a>
+          <a href="">
+            <img src="./src/assest/icon/linkedln-icon.svg" alt="" />
+          </a>
+        </div>
+      </div>
     </footer>
+
     <script type="module" src="./src/assest/js/script.js"></script>
   </body>
 </html>
