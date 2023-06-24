@@ -2,7 +2,6 @@
 import logos from "./logo.json" assert { type: "json" };
 console.log(logos);
 
-let dataBody = document.querySelector(".card-body");
 let logoContainer = document.querySelector(".card-body");
 
 logos.forEach(function (logo) {
@@ -32,11 +31,11 @@ function showLogoDetails(logoDetails) {
 
   document.querySelector(".popup-body").style.display = "flex";
 
+
   const popupText = document.querySelector(".popup-text");
   const popupDescription = document.querySelector(".popup-description");
   popupText.innerHTML = logoDetails.name;
   popupDescription.innerHTML = logoDetails.description;
-
 }
 
 const pop_up_header = document.querySelector(".pop-up-close");
