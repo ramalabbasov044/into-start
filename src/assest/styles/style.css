@@ -71,14 +71,14 @@ header {
 }
 
 .header-map {
-  background-image: url(../images/map.png);
+  background-image: url(../images/map\ \(1\).png);
   background-size: cover;
   background-position: center;
-  width: 1082px;
-  height: 956px;
+  width: 730px;
+  height: 616px;
   background-repeat: no-repeat;
   margin-bottom: 40px;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 
