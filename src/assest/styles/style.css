@@ -2,7 +2,6 @@
 
 header {
   width: 100vw;
-  background: #e5f6f0;
 }
 
 .header-top {
@@ -72,19 +71,25 @@ header {
 }
 
 .header-map {
-  background-image: url("../images/map.png");
+  background-image: url(../images/map.png);
   background-size: cover;
   background-position: center;
   width: 1082px;
   height: 956px;
   background-repeat: no-repeat;
-  margin-top: -384px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
-.header-map-body {
-  margin-top: 439px;
-  height: 165px;
+
+.header-map-bg {
+  width: 1082px;
+  height: 956px;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
+
 
 /* footer */
 
