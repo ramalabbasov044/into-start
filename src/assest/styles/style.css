@@ -63,15 +63,14 @@ header {
 .header-h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 121.077px;
+  font-size: 101px;
   line-height: 123px;
   text-align: center;
   color: #313131;
-  max-width: 949px;
 }
 
 .header-map {
-  background-image: url(../images/map\ \(1\).png);
+  background-image: url('../images/Group 384.png');
   background-size: cover;
   background-position: center;
   width: 730px;

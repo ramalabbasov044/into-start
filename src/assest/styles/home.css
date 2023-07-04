@@ -151,7 +151,7 @@ main {
   position: relative;
   z-index: 111111;
   background: white;
-  transform: scale(1.005);
+  transform: scale(0.9);
 }
 
 .mainBox {
