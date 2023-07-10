@@ -23,8 +23,6 @@
     }
 }
 
-
-
 @media screen and (max-width:1200px){
     .normal-mode{
         display: flex;
@@ -60,20 +58,38 @@
         justify-content: center;
         text-align: center;
     }
-    .image{
-        height: 455px;
+    .banner{
+        margin-top: 80px;
+        padding: 21px 90px 19.69px 90px;
     }
     .header-map-body{
         display: none;
     }
-    .banner{
-        margin-top: 80px;
+    .mainBox{
+        padding: 31px 90px 31px 90px;
     }
 }
 
 @media screen and (max-width:1047px){
     .banner{
         gap: 40px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .banner{
+        padding: 21px 60px 19.69px 60px;
+    }
+    .bannerItem img{
+        width: 200px;
+        height: 72px;
+    }
+    .image{
+
+    }
+    .mainBox{
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
@@ -113,6 +129,13 @@
     }
 }
 
+@media screen and (max-width:792px){
+    .bannerItem img{
+        width: 150px;
+        height: 65px;
+    }  
+}
+
 @media screen and (max-width:724px){
     .container .sticky-content1[data-v-0e0ec1c6]{
         margin-top: 940px;
@@ -128,12 +151,22 @@
     }
 }
 
+@media screen and (max-width:653px){
+    .bannerItem img{
+        width: 100px;
+        height: 40px;
+    }
+}
+
 @media screen and (max-width:619px){
     .header-h1{
         font-size: 55px;
     }
     .footerLeft a{
         font-size: 10px;
+    }
+    .popup-text{
+        font-size: 50px;
     }
 }
 
@@ -147,14 +180,8 @@
     .header-h1{
         font-size: 50px;
     }
-    .image{
-        width: 300px;
-    }
     .start-head-text{
         font-size: 50px;
-    }
-    .image{
-        height: 350px;
     }
     .about-description{
         font-size: 14px;
@@ -171,6 +198,12 @@
     .card{
         width: calc(100% / 2.3);
     }
+}
+
+@media screen and (max-width:506px){
+   .bannerItem img{
+        width: 70px;
+   }
 }
 
 @media screen and (max-width:472px){
@@ -198,12 +231,6 @@
     .container .sticky-content > div[data-v-0e0ec1c6]{
         width: 100%;
     }
-    .bannerItem img{
-        width: 200px;
-    }
-    .image{
-        height: 250px;
-    }
     .header-h1{
         font-size: 36px;
     }
@@ -229,7 +256,7 @@
         width: calc(100% / 1);
     }
     .about-description{
-        font-size: 9px;
+        font-size: 10.609px;
     }
     .about-head-name{
         font-size: 24px;
@@ -250,8 +277,21 @@
     .footerText{
         max-width: 270px;
     }
+    .banner{
+        padding: 21px 18px 19.69px 18px;
+    }
+    .mainBox{
+        padding-left: 18px;
+        padding-right: 19px;
+    }
+    .image-about-field{
+        padding: 7px 6px 6px 6px;
+    }
+    .image{
+        width: 100%;
+        border-radius: 21px;
+    }
 }
-
 
 @media screen and (max-width:369px){
     .footerText{

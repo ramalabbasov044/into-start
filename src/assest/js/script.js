@@ -54,15 +54,16 @@ pop_up_header.addEventListener("click", function () {
 let menuIcon = document.querySelector(".menu-icon-body")
 let sidebar = document.querySelector(".sidebar")
 let closebutton = document.querySelector(".closeButton")
-let body = document.querySelector("body")
+let bg = document.querySelector(".bg")
 
 menuIcon.addEventListener("click",function(){
     sidebar.style.display = "flex"
-    body.style.backgroundColor = "#000000"
-    body.style.opacity = .7
+    bg.style.background = "black" 
+    bg.style.opacity = .7
 })
 
 closebutton.addEventListener("click",function(){
     sidebar.style.display = "none"
-    body.style.backgroundColor = ""
+    bg.style.backgroundColor = ""
+    bg.style.opacity = "1"
 })
