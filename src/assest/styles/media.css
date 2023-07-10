@@ -248,6 +248,13 @@
         padding-right: 40px;
     }
     .footerText{
-        
+        max-width: 270px;
+    }
+}
+
+
+@media screen and (max-width:369px){
+    .footerText{
+        max-width: 203px;
     }
 }
