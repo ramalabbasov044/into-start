@@ -65,16 +65,15 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 101px;
-  line-height: 123px;
   text-align: center;
   color: #313131;
 }
 
 .header-map {
   background-image: url('../images/Group 384.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  width: 730px;
+  width: 93vw;
   height: 616px;
   background-repeat: no-repeat;
   margin-bottom: 40px;
@@ -161,6 +160,7 @@ footer {
   display: none;
 }
 
-.menu-icon-body i{
-  font-size: 26px;
+.menu-icon-body img{
+  width: 30px;
+  height: 30px;
 }

@@ -58,7 +58,7 @@ let bg = document.querySelector(".bg")
 
 menuIcon.addEventListener("click",function(){
     sidebar.style.display = "flex"
-    bg.style.background = "black" 
+    bg.style.background = "#000000" 
     bg.style.opacity = .7
 })
 

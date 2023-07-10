@@ -84,9 +84,6 @@
         padding-left: 90px;
         padding-right: 90px;
     }
-    .header-map-body{
-        display: none;
-    }
     .mainBox{
         padding: 31px 90px 31px 90px;
     }
@@ -189,11 +186,14 @@
         width: 150px;
         height: 65px;
     }  
+    .header-bottom{
+        padding: 65.19px 0px 0px 0px;
+    }
 }
 
 @media screen and (max-width:724px){
     .container .sticky-content1[data-v-0e0ec1c6]{
-        margin-top: 940px;
+        margin-top: 690px;
     }
     .header-h1{
         font-size: 68px;
@@ -236,6 +236,9 @@
     .organize-img-body{
         margin-top: 20px;
     }
+    .header-map{
+        height: 512px;
+    }
 }
 
 @media screen and (max-width:576px){
@@ -261,6 +264,10 @@
     .rightImage{
         width: 90px;
         height: 100px;
+    }
+
+    .header-map{
+        height: 440px;
     }
 }
 
@@ -288,6 +295,9 @@
     .organizers-body{
         padding: 45px 53.12px 43.26px 45px;
     }
+    .header-map{
+        height: 377px;
+    }
 }
 
 @media screen and (max-width:472px){
@@ -299,6 +309,10 @@
     }
     .footerTop{
         padding: 42px 0px 45px 83px;
+    }
+
+    .header-map{
+        height: 357px;
     }
 }
 
@@ -321,11 +335,19 @@
     .footerText{
         font-size: 8px;
     }
+
+    .header-map{
+        height: 340px;
+    }
 }
 
 @media screen and (max-width:458px){
     .footerLeft a{
         font-size: 7px;
+    }
+
+    .header-map{
+        height: 310px;
     }
 }
 
@@ -382,5 +404,8 @@
 @media screen and (max-width:369px){
     .footerText{
         max-width: 203px;
+    }
+    .header-map{
+        height: 250px;
     }
 }

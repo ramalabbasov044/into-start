@@ -488,12 +488,14 @@ main {
 
 .sidebar{
   position: absolute;
-  width: 80%;
+  width: 83%;
   background-color: white;
   display: none;
-  padding: 50px;
-  height: 600px;
+  padding: 50px 90px;
+  height: 500px;
   justify-content: space-between;
+  z-index: 1;
+  box-shadow: 5px 10px 9px -1px black;
 }
 
 .navbar ul li a{
@@ -521,4 +523,8 @@ main {
 
 .closeButton i{
   font-size: 30px;
+}
+
+.navbar{
+  margin-top: 13px;
 }
