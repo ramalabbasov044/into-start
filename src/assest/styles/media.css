@@ -97,6 +97,11 @@
     .popup-text{
         font-size: 80px;
     }
+
+    .popup-body{
+        width: 126%;
+        left: none;
+    }
 }
 
 @media screen and (max-width:724px){

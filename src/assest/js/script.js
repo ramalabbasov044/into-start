@@ -51,6 +51,18 @@ pop_up_header.addEventListener("click", function () {
 
 // hmaburger menu
 
-let menuIcon = document.querySelector("menu-icon-body")
+let menuIcon = document.querySelector(".menu-icon-body")
+let sidebar = document.querySelector(".sidebar")
+let closebutton = document.querySelector(".closeButton")
+let body = document.querySelector("body")
 
-menuIcon
+menuIcon.addEventListener("click",function(){
+    sidebar.style.display = "block"
+    body.style.backgroundColor = "#000000"
+    body.style.opacity = .7
+})
+
+closebutton.addEventListener("click",function(){
+    sidebar.style.display = "none"
+    body.style.backgroundColor = ""
+})
