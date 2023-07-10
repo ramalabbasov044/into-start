@@ -153,3 +153,13 @@ footer {
   gap: 37px;
   display: flex;
 }
+
+
+.menu-icon-body{
+  align-items: center;
+  display: none;
+}
+
+.menu-icon-body i{
+  font-size: 26px;
+}
