@@ -57,7 +57,7 @@ let closebutton = document.querySelector(".closeButton")
 let body = document.querySelector("body")
 
 menuIcon.addEventListener("click",function(){
-    sidebar.style.display = "block"
+    sidebar.style.display = "flex"
     body.style.backgroundColor = "#000000"
     body.style.opacity = .7
 })
