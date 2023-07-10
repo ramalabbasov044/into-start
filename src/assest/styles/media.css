@@ -1,6 +1,5 @@
 
 .image{
-    width: 100%;
     border-radius: 21px;
 }
 
@@ -152,6 +151,9 @@
     .rightImage{
         width: 200px;
         height: 100px;
+    }
+    .image{
+        width: 100%;
     }
 }
 
