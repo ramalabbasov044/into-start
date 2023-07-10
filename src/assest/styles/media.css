@@ -1,3 +1,9 @@
+
+.image{
+    width: 100%;
+    border-radius: 21px;
+}
+
 @media screen and (max-width:1351px){
     .card{
         width: calc(100% / 3.3);
@@ -23,18 +29,27 @@
     }
 }
 
+@media screen and (max-width:1215px){
+    .leftImage{
+        width: 350px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 350px;
+        height: 100px;
+    }
+    .organizers-body{
+        padding: 55px 73.12px 113.26px 75px;
+    }
+}
+
 @media screen and (max-width:1200px){
     .normal-mode{
         display: flex;
         flex-direction: column;
     }
     .organize-img-body{
-        flex-direction: column;
         gap: 70px;
-    }
-    .rightImage{
-        width: 459px;
-        height: 153px;
     }
     .image-field{
         display: flex;
@@ -62,6 +77,14 @@
         margin-top: 80px;
         padding: 21px 90px 19.69px 90px;
     }
+    .footerTop{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .footerBottom{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
     .header-map-body{
         display: none;
     }
@@ -74,6 +97,14 @@
     .banner{
         gap: 40px;
     }
+    .leftImage{
+        width: 300px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 300px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width:992px){
@@ -84,12 +115,26 @@
         width: 200px;
         height: 72px;
     }
-    .image{
+    .footerTop{
+        padding-right: 60px;
+        padding-left: 60px;
 
+    }
+    .footerBottom{
+        padding-right: 60px;
+        padding-left: 60px;
     }
     .mainBox{
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .leftImage{
+        width: 250px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 250px;
+        height: 100px;
     }
 }
 
@@ -99,6 +144,14 @@
     }
     .footer-logo img{
         width: 150px;
+    }
+    .leftImage{
+        width: 200px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 200px;
+        height: 100px;
     }
 }
 
@@ -140,14 +193,16 @@
     .container .sticky-content1[data-v-0e0ec1c6]{
         margin-top: 940px;
     }
-    .leftImage{
-        width: 340px;
-    } 
-    .rightImage{
-        width: 340px;
-    }
     .header-h1{
         font-size: 68px;
+    }
+    .leftImage{
+        width: 150px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 150px;
+        height: 100px;
     }
 }
 
@@ -168,15 +223,20 @@
     .popup-text{
         font-size: 50px;
     }
+    .leftImage{
+        width: 120px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 120px;
+        height: 100px;
+    }
+    .organize-img-body{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:576px){
-    .leftImage{
-        width: 260px;
-    } 
-    .rightImage{
-        width: 260px;
-    }
     .header-h1{
         font-size: 50px;
     }
@@ -192,6 +252,14 @@
     .organizers-body{
         padding: 55px 73.12px 73.26px 75px;
     }
+    .leftImage{
+        width: 90px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 90px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width:518px){
@@ -204,6 +272,20 @@
    .bannerItem img{
         width: 70px;
    }
+   .leftImage{
+        width: 80px;
+        height: 100px;
+    }
+    .rightImage{
+        width: 80px;
+        height: 100px;
+    }
+    .organizers-body-text{
+        font-size: 33px;
+    }
+    .organizers-body{
+        padding: 45px 53.12px 43.26px 45px;
+    }
 }
 
 @media screen and (max-width:472px){
@@ -219,12 +301,6 @@
 }
 
 @media screen and (max-width:461px){
-    .leftImage{
-        width: 150px;
-    } 
-    .rightImage{
-        width: 150px;
-    }
     .about-description{
         font-size: 11px;
     }
@@ -279,6 +355,14 @@
     }
     .banner{
         padding: 21px 18px 19.69px 18px;
+    }
+    .footerTop{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .footerBottom{
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .mainBox{
         padding-left: 18px;
