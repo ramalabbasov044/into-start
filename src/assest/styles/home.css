@@ -489,7 +489,7 @@ main {
 
 .sidebar{
   position: absolute;
-  width: 60%;
+  width: 80%;
   background-color: white;
   display: none;
   padding: 50px;
