@@ -77,6 +77,14 @@
     }
 }
 
+@media screen and (max-width:849px){
+    .footerText{
+        font-size: 11px;
+    }
+    .footer-logo img{
+        width: 150px;
+    }
+}
 
 @media screen and (max-width:813px){
     .card-body{
@@ -96,6 +104,12 @@
     }
     .popup-text{
         font-size: 80px;
+    }
+    .footerBottom{
+        padding: 29.02px 98px 24.98px 83px;
+    }
+    .footerTop{
+        padding: 42px 0px 98px 83px;
     }
 }
 
@@ -117,6 +131,9 @@
 @media screen and (max-width:619px){
     .header-h1{
         font-size: 55px;
+    }
+    .footerLeft a{
+        font-size: 10px;
     }
 }
 
@@ -145,6 +162,9 @@
     .about-head-name{
         font-size: 36px;
     }
+    .organizers-body{
+        padding: 55px 73.12px 73.26px 75px;
+    }
 }
 
 @media screen and (max-width:518px){
@@ -159,6 +179,9 @@
     }
     .about-description{
         font-size: 10px;
+    }
+    .footerTop{
+        padding: 42px 0px 45px 83px;
     }
 }
 
@@ -190,6 +213,15 @@
     .organize-img-body{
         gap: 0px;
     }
+    .footerText{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:458px){
+    .footerLeft a{
+        font-size: 7px;
+    }
 }
 
 @media screen and (max-width:410px){
@@ -207,5 +239,15 @@
     }
     .organizers-body-text{
         font-size: 38px;
+    }
+    .footerText{
+        font-size: 7px !important;
+        max-width: 230px;
+    }
+    .footerBottom{
+        padding-right: 40px;
+    }
+    .footerText{
+        
     }
 }
