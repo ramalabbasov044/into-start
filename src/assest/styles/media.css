@@ -159,6 +159,12 @@
         transform: translateY(0px);
         opacity: 1;
     }
+    .sticky-content3{
+        translate: 0 -550px !important;
+    }
+    .container .sticky-content2[data-v-0e0ec1c6]{
+        translate: 0 -549px !important;
+    }
 }
 
 @media screen and (max-width:849px){
