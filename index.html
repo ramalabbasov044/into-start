@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InnoStart</title>
-    <link rel="icon" href="./src/assest/icon/favicon.svg" type="image/x-icon">
+    <link rel="icon" href="./src/assest/icon/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./src/assest/styles/reset.css" />
     <link rel="stylesheet" href="./src/assest/styles/font.css" />
     <link rel="stylesheet" href="./src/assest/styles/style.css" />
@@ -18,16 +18,43 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet prefetch" href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet prefetch"
+      href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-
     <div class="bg">
+      <div class="sidebar">
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Əsas</a></li>
+            <li><a href="#Tədbirlər">Tədbirlər</a></li>
+            <li><a href="#İnkubasiya">İnkubasiya</a></li>
+            <li><a href="#Təşkilatçılar">Təşkilatçılar</a></li>
+          </ul>
+        </nav>
 
-        <div class="sidebar">
-          <nav class="navbar">
-            <ul>
+        <button class="closeButton">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <header>
+        <div class="header-top">
+          <div class="Logo">
+            <img src="./src/assest/images/main_logo.svg" alt="" />
+          </div>
+
+          <nav id="nav">
+            <ul id="ul">
               <li><a href="#">Əsas</a></li>
               <li><a href="#Tədbirlər">Tədbirlər</a></li>
               <li><a href="#İnkubasiya">İnkubasiya</a></li>
@@ -35,383 +62,358 @@
             </ul>
           </nav>
 
-          <button class="closeButton">
-         
-            <i class="fa-solid fa-xmark"></i>
-
-          </button>
+          <div class="menu-icon-body">
+            <img src="./src/assest/icon/menu.svg" alt="" />
+          </div>
         </div>
 
-        <header>
-          <div class="header-top">
-            <div class="Logo">
-              <img src="./src/assest/images/main_logo.svg" alt="" />
-            </div>
-
-            <nav id="nav">
-              <ul id="ul">
-                <li><a href="#">Əsas</a></li>
-                <li><a href="#Tədbirlər">Tədbirlər</a></li>
-                <li><a href="#İnkubasiya">İnkubasiya</a></li>
-                <li><a href="#Təşkilatçılar">Təşkilatçılar</a></li>
-              </ul>
-            </nav>
-
-            <div class="menu-icon-body">
-                <img src="./src/assest/icon/menu.svg" alt="">
-            </div>
-
-            
+        <div class="header-bottom">
+          <p class="header-h1">
+            İdeyanı biznesə
+            <span class="orange-text">çevir!</span>
+          </p>
+          <div class="header-map-body">
+            <div class="header-map"></div>
           </div>
+        </div>
+      </header>
 
-          <div class="header-bottom">
-            <p class="header-h1">
-              İdeyanı biznesə
-              <span class="orange-text">çevir!</span>
-            </p>
-                    <div class="header-map-body">
-                        <div class="header-map"></div>
-                    </div>
+      <main>
+        <div class="banner">
+          <div class="bannerItem">
+            <img src="./src/assest/images/banner_item_one.svg" alt="" />
           </div>
-        </header>
-
-        <main>
-
-
-          <div class="banner">
-            <div class="bannerItem">
-              <img src="./src/assest/images/banner_item_one.svg" alt="" />
-            </div>
-            <div class="bannerItem">
-              <img src="./src/assest/images/banner_item_two.svg" alt="" />
-            </div>
-            <div class="bannerItem">
-              <img src="./src/assest/images/banner_item_three.svg" alt="" />
-            </div>
+          <div class="bannerItem">
+            <img src="./src/assest/images/banner_item_two.svg" alt="" />
           </div>
+          <div class="bannerItem">
+            <img src="./src/assest/images/banner_item_three.svg" alt="" />
+          </div>
+        </div>
 
-          <div class="mainBox">
-            <div class="container" data-v-0e0ec1c6="">
+        <div class="mainBox">
+          <div class="container" data-v-0e0ec1c6="">
+            <div
+              class="sticky-content1 sticky-content about-item reveal"
+              data-index="0"
+              data-v-0e0ec1c6=""
+            >
               <div
-                class="sticky-content1 sticky-content about-item reveal"
-                data-index="0"
+                class="normal-mode bg-transparent image-about-field"
                 data-v-0e0ec1c6=""
               >
-                <div
-                  class="normal-mode bg-transparent image-about-field"
-                  data-v-0e0ec1c6=""
-                >
-                  <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
-                    <img
-                      src="./src/assest/images/user_img.svg"
-                      alt="Mükellef <br> Hakkında"
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                    <img
-                      src="./src/assest/images/res-userimg.svg"
-                      alt="Mükellef <br> Hakkında"
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image2"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                  </div>
-                  <div class="about-box">
-                    <p class="about-head-name">Haqqımızda</p>
-                    <p class="about-description">
-                      INNOSTART regionlarda startap təfəkkürünün formalaşması,
-                      startap hərəkatının güclənməsi üçün həyata keçirilən
-                      layihədir.
-                    </p>
-                  </div>
+                <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
+                  <img
+                    src="./src/assest/images/user_img.svg"
+                    alt="Mükellef <br> Hakkında"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                  <img
+                    src="./src/assest/images/res-userimg.svg"
+                    alt="Mükellef <br> Hakkında"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image2"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                </div>
+                <div class="about-box">
+                  <p class="about-head-name">Haqqımızda</p>
+                  <p class="about-description">
+                    INNOSTART regionlarda startap təfəkkürünün formalaşması,
+                    startap hərəkatının güclənməsi üçün həyata keçirilən
+                    layihədir.
+                  </p>
                 </div>
               </div>
+            </div>
 
+            <div
+              class="sticky-content2 sticky-content about-item orange reveal"
+              data-index="1"
+              data-v-0e0ec1c6=""
+              id="Tədbirlər"
+            >
               <div
-                class="sticky-content2 sticky-content about-item orange reveal"
-                data-index="1"
+                class="normal-mode bg-transparent image-about-field orange"
                 data-v-0e0ec1c6=""
-                id="Tədbirlər"
               >
-                <div
-                  class="normal-mode bg-transparent image-about-field orange"
-                  data-v-0e0ec1c6=""
-                >
-                  <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
-                    <img
-                      src="./src/assest/images/user_img_one.svg"
-                      alt=""
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                    <img
-                      src="./src/assest/images/res-userimg1.svg"
-                      alt=""
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image2"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                  </div>
-                  <div class="about-box">
-                    <p class="about-head-name">İnnostart Tədbirləri</p>
-                    <p class="about-description">
-                      INNOSTART tədbirləri regionlarda startap icmasının inkişafı,
-                      startap təfəkkürünün formalaşması məqsədi ilə keçirilir. Panel
-                      müzakirə, “talk” və vörkşop formatında keçirilən tədbirlərdə
-                      iştirakçılara startap quruculuğu haqqında məlumat verilir.
-                    </p>
-                  </div>
+                <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
+                  <img
+                    src="./src/assest/images/user_img_one.svg"
+                    alt=""
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                  <img
+                    src="./src/assest/images/res-userimg1.svg"
+                    alt=""
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image2"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                </div>
+                <div class="about-box">
+                  <p class="about-head-name">İnnostart Tədbirləri</p>
+                  <p class="about-description">
+                    INNOSTART tədbirləri regionlarda startap icmasının inkişafı,
+                    startap təfəkkürünün formalaşması məqsədi ilə keçirilir.
+                    Panel müzakirə, “talk” və vörkşop formatında keçirilən
+                    tədbirlərdə iştirakçılara startap quruculuğu haqqında
+                    məlumat verilir.
+                  </p>
                 </div>
               </div>
+            </div>
 
+            <div
+              class="sticky-content3 sticky-content stuck about-item green reveal"
+              data-index="2"
+              data-v-0e0ec1c6=""
+              id="İnkubasiya"
+            >
               <div
-                class="sticky-content3 sticky-content stuck about-item green reveal"
-                data-index="2"
+                class="normal-mode bg-transparent image-about-field green"
                 data-v-0e0ec1c6=""
-                id="İnkubasiya"
               >
-                <div
-                  class="normal-mode bg-transparent image-about-field green"
-                  data-v-0e0ec1c6=""
-                >
-                  <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
-                    <img
-                      src="./src/assest/images/user_img_two.svg"
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                    <img
-                      src="./src/assest/images/res-userimg2.svg"
-                      loading="lazy"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-                      class="hidden md:block default-image-size image2"
-                      data-v-0e0ec1c6=""
-                      alt=""
-                    />
-                  </div>
-                  <div class="about-box">
-                    <p class="about-head-name">İnkubasiya Proqramı</p>
-                    <p class="about-description">
-                      İnkubasiya proqramı regionlarda yaşayan innovativ ideyası olan
-                      şəxslərin ideyalarını reallaşdırmaq məqsədi ilə həyata
-                      keçirilir. 6 ay davam edən proqramda startaplara təlimlərlə
-                      yanaşı mentorluq və texniki dəstəyi göstərilir.
-                    </p>
-                  </div>
+                <div class="image-field md:col-span-2" data-v-0e0ec1c6="">
+                  <img
+                    src="./src/assest/images/user_img_two.svg"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                  <img
+                    src="./src/assest/images/res-userimg2.svg"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+                    class="hidden md:block default-image-size image2"
+                    data-v-0e0ec1c6=""
+                    alt=""
+                  />
+                </div>
+                <div class="about-box">
+                  <p class="about-head-name">İnkubasiya Proqramı</p>
+                  <p class="about-description">
+                    İnkubasiya proqramı regionlarda yaşayan innovativ ideyası
+                    olan şəxslərin ideyalarını reallaşdırmaq məqsədi ilə həyata
+                    keçirilir. 6 ay davam edən proqramda startaplara təlimlərlə
+                    yanaşı mentorluq və texniki dəstəyi göstərilir.
+                  </p>
                 </div>
               </div>
             </div>
-
-            <div class="start-up-body">
-              <p class="start-head-text">Startaplar</p>
-              <div class="card-body"></div>
-              <div class="popup-body">
-                <div class="pop-up">
-                  <div class="pop-up-header">
-                    <div class="pop-up-image">
-                      <img
-                        class="rose"
-                        src="./src/assest/images/popup-img.svg"
-                        alt=""
-                      />
-                    </div>
-                    <div class="pop-up-close">
-                      <img src="./src/assest/images/ph_x.svg" alt="" />
-                    </div>
-                  </div>
-                  <div class="pop-up-title">
-                    <p class="popup-text"></p>
-                    <p class="popup-description"></p>
-                  </div>
-                  <div class="pop-up-members">
-                    <p class="membersText">Komanda üzvləri</p>
-                    <div class="pop-up-card-body">
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a href="https://www.linkedin.com/feed/">
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a href="https://www.linkedin.com/feed/">
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a href="https://www.linkedin.com/feed/">
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a href="https://www.linkedin.com/feed/">
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a href="https://www.linkedin.com/feed/">
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-
-                      <div class="pop-up-card">
-                        <div>
-                          <img
-                            src="./src/assest/images/members.svg"
-                            alt=""
-                            class="pop-up-card-img"
-                          />
-                          <div class="content">
-                            <a
-                              href="https://www.linkedin.com/feed/https://www.linkedin.com/feed/"
-                            >
-                              <i class="fa-brands fa-linkedin linkedln"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <p class="pop-up-card-username">Ad Soyad</p>
-                        <p class="pop-up-card-workname">Vəzifə ixtisas</p>
-                      </div>
-                    </div>
-                    <img
-                      class="leftImg"
-                      src="./src/assest/images/leftpop.svg"
-                      alt=""
-                    />
-                    <img
-                      class="rightImg"
-                      src="./src/assest/images/righttop.svg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="Təşkilatçılar" class="organizers-body">
-              <p class="organizers-body-text">Təşkilatçılar</p>
-
-              <div class="organize-img-body">
-                <a href="https://www.digital.gov.az/az">
-                  <div>
-                    <img
-                      src="./src/assest/images/organize-img.svg"
-                      alt=""
-                      class="leftImage"
-                    />
-                  </div>
-                </a>
-                
-                <a href="http://sup.vc">
-                  <div>
-                    <img
-                      src="./src/assest/images/organize-img2.svg"
-                      alt=""
-                      class="rightImage"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div> 
-        </main>
-
-        
-        <footer>
-          <div class="footerTop">
-            <div class="footer-logo">
-              <img src="./src/assest/images/footerlogo.svg" alt="" />
-            </div>
-            <p class="footerText">
-              INNOSTART regionlarda startap təfəkkürünün formalaşması, startap
-              hərəkatının güclənməsi üçün həyata keçirilən layihədir.
-            </p>
           </div>
 
-          <div class="footerBottom">
-            <div class="footerLeft">
-              <a href="#">info@innostart.az</a>
-              <a href="#">+994 51 240 41 55</a>
+          <div class="start-up-body">
+            <p class="start-head-text">Startaplar</p>
+            <div class="card-body"></div>
+            <div class="popup-body">
+              <div class="pop-up">
+                <div class="pop-up-header">
+                  <div class="pop-up-image">
+                    <img
+                      class="rose"
+                      src="./src/assest/images/popup-img.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pop-up-close">
+                    <img src="./src/assest/images/ph_x.svg" alt="" />
+                  </div>
+                </div>
+                <div class="pop-up-title">
+                  <p class="popup-text"></p>
+                  <p class="popup-description"></p>
+                </div>
+                <div class="pop-up-members">
+                  <p class="membersText">Komanda üzvləri</p>
+                  <div class="pop-up-card-body">
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a href="https://www.linkedin.com/feed/">
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a href="https://www.linkedin.com/feed/">
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a href="https://www.linkedin.com/feed/">
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a href="https://www.linkedin.com/feed/">
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a href="https://www.linkedin.com/feed/">
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+
+                    <div class="pop-up-card">
+                      <div>
+                        <img
+                          src="./src/assest/images/members.svg"
+                          alt=""
+                          class="pop-up-card-img"
+                        />
+                        <div class="content">
+                          <a
+                            href="https://www.linkedin.com/feed/https://www.linkedin.com/feed/"
+                          >
+                            <i class="fa-brands fa-linkedin linkedln"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="pop-up-card-username">Ad Soyad</p>
+                      <p class="pop-up-card-workname">Vəzifə ixtisas</p>
+                    </div>
+                  </div>
+                  <img
+                    class="leftImg"
+                    src="./src/assest/images/leftpop.svg"
+                    alt=""
+                  />
+                  <img
+                    class="rightImg"
+                    src="./src/assest/images/righttop.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
-            <div class="footerRight">
-              <a href="https://www.facebook.com/innostart">
-                <img src="./src/assest/icon/facebook-icon.svg" alt="" />
+          </div>
+
+          <div id="Təşkilatçılar" class="organizers-body">
+            <p class="organizers-body-text">Təşkilatçılar</p>
+
+            <div class="organize-img-body">
+              <a href="https://www.digital.gov.az/az">
+                <div>
+                  <img
+                    src="./src/assest/images/organize-img.svg"
+                    alt=""
+                    class="leftImage"
+                  />
+                </div>
+              </a>
+
+              <a href="http://sup.vc">
+                <div>
+                  <img
+                    src="./src/assest/images/organize-img2.svg"
+                    alt=""
+                    class="rightImage"
+                  />
+                </div>
               </a>
             </div>
           </div>
-        </footer>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footerTop">
+          <div class="footer-logo">
+            <img src="./src/assest/images/footerlogo.svg" alt="" />
+          </div>
+          <p class="footerText">
+            INNOSTART regionlarda startap təfəkkürünün formalaşması, startap
+            hərəkatının güclənməsi üçün həyata keçirilən layihədir.
+          </p>
+        </div>
+
+        <div class="footerBottom">
+          <div class="footerLeft">
+            <a href="#">info@innostart.az</a>
+            <a href="#">+994 51 240 41 55</a>
+          </div>
+          <div class="footerRight">
+            <a href="https://www.facebook.com/innostart">
+              <img src="./src/assest/icon/facebook-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script type="module" src="./src/assest/js/script.js"></script>
+    <script src="./src/assest/js/logos.js"></script>
+    <script src="./src/assest/js/script.js"></script>
   </body>
 </html>

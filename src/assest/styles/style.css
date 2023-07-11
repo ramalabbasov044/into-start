@@ -70,7 +70,7 @@ header {
 }
 
 .header-map {
-  background-image: url('../images/Group 384.png');
+  background-image: url("../images/Group 384.png");
   background-size: contain;
   background-position: center;
   width: 93vw;
@@ -80,7 +80,6 @@ header {
   margin-top: 80px;
 }
 
-
 .header-map-bg {
   width: 1082px;
   height: 956px;
@@ -88,7 +87,6 @@ header {
   margin-bottom: 40px;
   margin-top: 60px;
 }
-
 
 /* footer */
 
@@ -154,13 +152,13 @@ footer {
   display: flex;
 }
 
-
-.menu-icon-body{
+.menu-icon-body {
   align-items: center;
   display: none;
+  cursor: pointer;
 }
 
-.menu-icon-body img{
+.menu-icon-body img {
   width: 30px;
   height: 30px;
 }

@@ -1,6 +1,5 @@
 "use strict";
-import logos from "./logo.json" assert { type: "json" };
-console.log(logos);
+// import logos from "./logo.json" assert { type: "json" };
 
 let logoContainer = document.querySelector(".card-body");
 
@@ -31,7 +30,6 @@ function showLogoDetails(logoDetails) {
 
   document.querySelector(".popup-body").style.display = "flex";
 
-
   const popupText = document.querySelector(".popup-text");
   const popupDescription = document.querySelector(".popup-description");
   popupText.innerHTML = logoDetails.name;
@@ -44,48 +42,43 @@ pop_up_header.addEventListener("click", function () {
   document.querySelector(".popup-body").style.display = "none";
 });
 
-
-
-
-
-
 // hmaburger menu
 
-let menuIcon = document.querySelector(".menu-icon-body")
-let sidebar = document.querySelector(".sidebar")
-let closebutton = document.querySelector(".closeButton")
-let bg = document.querySelector(".bg")
+let menuIcon = document.querySelector(".menu-icon-body");
+let sidebar = document.querySelector(".sidebar");
+let closebutton = document.querySelector(".closeButton");
+let bg = document.querySelector(".bg");
 
-menuIcon.addEventListener("click",function(){
-    sidebar.style.display = "flex"
-    bg.style.background = "#000000" 
-    bg.style.opacity = .7
-})
+menuIcon.addEventListener("click", function () {
+  console.log("test menu");
+  sidebar.style.display = "flex";
+  bg.style.background = "#000000";
+  bg.style.opacity = 0.7;
+});
 
-closebutton.addEventListener("click",function(){
-    sidebar.style.display = "none"
-    bg.style.backgroundColor = ""
-    bg.style.opacity = "1"
-})
+closebutton.addEventListener("click", function () {
+  console.log("test close");
 
-
+  sidebar.style.display = "none";
+  bg.style.backgroundColor = "";
+  bg.style.opacity = "1";
+});
 
 // Animations
+window.addEventListener("scroll", reveal);
 
-window.addEventListener('scroll',reveal)
+function reveal() {
+  let reveals = document.querySelectorAll(".reveal");
 
-function reveal(){
-    let reveals = document.querySelectorAll(".reveal")
+  for (var i = 0; i < reveals.length; i++) {
+    let windowheight = window.innerHeight;
+    let revealTop = reveals[i].getBoundingClientRect().top;
+    let revealPoint = 150;
 
-    for(var i = 0 ; i < reveals.length ; i++){
-      let windowheight = window.innerHeight
-      let revealTop = reveals[i].getBoundingClientRect().top;
-      let revealPoint = 150;
-
-      if(revealTop < windowheight - revealPoint){
-          reveals[i].classList.add('active')
-      }else{
-        reveals[i].classList.remove('active')
-      }
+    if (revealTop < windowheight - revealPoint) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
     }
+  }
 }
