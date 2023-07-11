@@ -165,6 +165,15 @@
     .container .sticky-content2[data-v-0e0ec1c6]{
         translate: 0 -549px !important;
     }
+    .container[data-v-0e0ec1c6]{
+        min-height:0px !important;
+    }
+    .container[data-v-0e0ec1c6]{
+        min-height: 0px  !important;
+    }
+    .container{
+        height: 1000px;
+    }
 }
 
 @media screen and (max-width:849px){
@@ -419,7 +428,6 @@
         font-weight: 400;
         line-height: 13.101px;
         letter-spacing: 0.049px;
-        font-family: San Francisco;
     }
     .about-head-name{
         color: #232323;

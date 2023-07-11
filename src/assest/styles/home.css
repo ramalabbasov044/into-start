@@ -142,6 +142,10 @@ main {
   z-index: 1;
 }
 
+html {
+  scroll-behavior: smooth
+  }
+
 .pop-up {
   border: 1px solid black;
   border-radius: 24px;
@@ -527,4 +531,14 @@ main {
 
 .navbar{
   margin-top: 13px;
+}
+
+.Logo img{
+    width: 202px;
+    height: 44px;
+}
+
+.footer-logo img{
+  width: 202px;
+  height: 44px;
 }
